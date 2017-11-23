@@ -24,7 +24,6 @@ a:hover{text-decoration:none;color:white!important;}
 .navbar-brand{font-size:22px;}
 .navbar-nav>.active>a{background-color: rgba(102, 26, 66,0.8)!important;}
 
-
 /* Personnel */
 
 #intro, #competences, #separation, #contact, #footer{text-align:center;}
@@ -43,6 +42,8 @@ nav ul ul li{display:inline-block; margin:0;}
 
 /* Compétences */
 #competences p{text-align: left ;}
+#competences article img{-webkit-transition-duration: 1s;transition-duration: 1.2s;}
+#competences article img:hover{transform: rotate(360deg);}
 #competences div div{ margin-top: 20px;}
 #competences div div article{ height:270px;margin-bottom:10px;}
 #competences div div img{border-radius:25%;}
@@ -61,7 +62,3 @@ nav ul ul li{display:inline-block; margin:0;}
 
 /* Footer */
 #footer{background-color:rgba(74,26,44,0.8); color: white;}
-
-
-
-
