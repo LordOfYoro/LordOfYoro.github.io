@@ -55,6 +55,8 @@ nav ul ul li{display:inline-block; margin:0;}
 /* Contact */
 #contact{padding-top: 50px; margin-bottom:50px;}
 #contact p {display: inline-block; font-size: 18px;}
+#contact a{color: blue!important;}
+#contact a:hover{text-decoration:underline;}
 #contact h2{margin-bottom:40px;}
 
 #contact #icon_mail{width: 40px ; height: 26px ;}
